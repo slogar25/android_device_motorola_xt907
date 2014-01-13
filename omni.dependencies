@@ -1,11 +1,6 @@
 [
   {
     "remote":      "github",
-    "repository":  "slogar25/android_device_motorola_xt907",
-    "target_path": "device/motorola/qcom-common",
-    "revision":    "omni-44"
-  {
-    "remote":      "github",
     "repository":  "CyanogenMod/android_device_motorola_qcom-common",
     "target_path": "device/motorola/qcom-common",
     "revision":    "cm-11.0"
@@ -26,12 +21,6 @@
     "remote":      "github",
     "repository":  "CyanogenMod/android_system_qcom",
     "target_path": "system/qcom",
-    "revision":    "cm-11.0"
-  },
-  {
-    "remote":      "github",
-    "repository":  "TheMuppets/proprietary_vendor_motorola",
-    "target_path": "vendor/motorola",
     "revision":    "cm-11.0"
   }
 ]
