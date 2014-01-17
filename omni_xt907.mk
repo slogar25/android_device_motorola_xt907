@@ -1,4 +1,4 @@
-# Inherit some common CM stuff.
+# Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Enhanced NFC
