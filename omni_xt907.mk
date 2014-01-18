@@ -1,10 +1,5 @@
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/cdma.mk)
-
 $(call inherit-product, vendor/omni/config/common.mk)
-
-# Inherit from common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
@@ -17,9 +12,7 @@ TARGET_SCREEN_WIDTH := 540
 PRODUCT_RELEASE_NAME := XT907
 PRODUCT_NAME := omni_xt907
 
-$(call inherit-product, device/motorola/xt907/device_xt907.mk)
-
-PRODUCT_GMS_CLIENTID_BASE := android-verizon
+$(call inherit-product, device/motorola/xt907/full_xt907.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_BRAND=motorola \
