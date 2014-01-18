@@ -1,6 +1,10 @@
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
+$(call inherit-product, vendor/omni/config/cdma.mk)
+
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
